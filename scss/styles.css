@@ -1,0 +1,174 @@
+p, span, a, div, li, body {
+  font-family: "Mada", sans-serif !important;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Alata", sans-serif !important;
+}
+
+nav {
+  position: absolute;
+  right: 100px;
+  top: 55%;
+}
+nav ul {
+  list-style: none;
+  text-align: right;
+}
+nav ul li a {
+  color: black;
+  font-size: 1.2rem;
+  font-family: "Alata", sans-serif !important;
+}
+nav ul li :after {
+  content: url(../img/ojo.png);
+  padding-left: 10px;
+}
+
+.banner {
+  height: 450px;
+  background-color: #06283D;
+}
+.banner h1 {
+  color: white;
+  padding-top: 150px;
+  font-size: 4rem;
+}
+
+.fondo_azul {
+  background-color: #DFF6FF;
+  position: absolute;
+  z-index: -1;
+}
+
+.subtitulo {
+  color: #0D2A70;
+  font-size: 2.4rem;
+}
+
+.identidad {
+  margin-top: 50px;
+  position: relative;
+}
+.identidad .fondo_azul {
+  height: 500px;
+  width: 90%;
+  margin: 0 auto 0 0;
+  left: -400px;
+  top: 55px;
+}
+.identidad .identidad_foto {
+  width: 350px;
+  margin: 0 auto;
+}
+.identidad p {
+  padding: 15px 20px 20px 0;
+}
+
+.proyectos {
+  margin-top: 50px;
+}
+.proyectos .subtitulo {
+  font-size: 2rem;
+  line-height: 2.1rem;
+}
+.proyectos .proyectos_individual {
+  padding: 20px;
+}
+.proyectos .proyectos_texto {
+  position: relative;
+  top: 100px;
+}
+.proyectos .proyectos_texto h2 {
+  margin-bottom: 30px;
+}
+.proyectos .proyectos_texto ul {
+  list-style: none;
+  display: inline-flex;
+  margin: 0px;
+}
+.proyectos .proyectos_texto ul li a {
+  padding-right: 10px;
+}
+.proyectos .proyectos_texto ul img {
+  width: 40px;
+}
+
+.habilidades {
+  margin: 100px 0;
+}
+.habilidades ul {
+  list-style: none;
+}
+.habilidades ul li {
+  display: inline-flex;
+  font-size: 3.5rem;
+  padding: 10px;
+}
+.habilidades ul li img {
+  width: 95px;
+}
+.habilidades h2 {
+  margin-top: 25px;
+}
+
+.cursos {
+  margin-bottom: 50px;
+}
+.cursos .large-12:nth-child(1) .large-6:nth-child(1) .curso_individual, .cursos .large-12:nth-child(3) .large-6:nth-child(1) .curso_individual {
+  padding-right: 20px;
+}
+.cursos .large-12:nth-child(1) .large-6:nth-child(2) .curso_individual, .cursos .large-12:nth-child(3) .large-6:nth-child(2) .curso_individual {
+  padding-left: 20px;
+}
+.cursos h3 {
+  font-size: 30px;
+}
+
+.blog {
+  position: relative;
+  padding-top: 50px;
+}
+.blog .columna_blog .post_blog {
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+.blog .columna_blog .post_blog .subtitulo {
+  font-size: 1.5rem !important;
+}
+.blog .columna_blog .post_blog .texto {
+  padding: 20px;
+}
+.blog .columna_blog .post_blog .large-6:nth-child(2) {
+  background-color: white;
+}
+.blog .fondo_azul {
+  height: 1000px;
+  width: 96%;
+  margin: 0 0 0 auto;
+  left: 404px;
+  top: 150px;
+}
+
+.footer {
+  background-image: url(../img/footer_fondo.png) !important;
+  height: 800px;
+}
+.footer h2 {
+  font-size: 2.4rem;
+  color: white;
+}
+.footer ul {
+  list-style: none;
+  margin: 0px;
+}
+.footer ul li a {
+  color: white;
+  font-size: 1.4rem;
+}
+.footer .info_contacto {
+  top: 450px;
+  position: relative;
+}
+
+/*# sourceMappingURL=styles.css.map */
