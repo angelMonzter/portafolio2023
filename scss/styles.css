@@ -75,6 +75,11 @@ nav ul li :after {
 .proyectos .proyectos_individual {
   padding: 20px;
 }
+.proyectos .proyectos_individual img {
+  box-shadow: 4px 6px 22px -2px rgba(0, 0, 0, 0.54);
+  -webkit-box-shadow: 4px 6px 22px -2px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 4px 6px 22px -2px rgba(0, 0, 0, 0.54);
+}
 .proyectos .proyectos_texto {
   position: relative;
   top: 100px;
@@ -106,7 +111,7 @@ nav ul li :after {
   padding: 10px;
 }
 .habilidades ul li img {
-  width: 95px;
+  width: 80px;
 }
 .habilidades h2 {
   margin-top: 25px;
@@ -122,7 +127,7 @@ nav ul li :after {
   padding-left: 20px;
 }
 .cursos h3 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .blog {
