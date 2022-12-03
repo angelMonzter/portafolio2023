@@ -76,9 +76,7 @@ nav ul li :after {
   padding: 20px;
 }
 .proyectos .proyectos_individual img {
-  box-shadow: 4px 6px 22px -2px rgba(0, 0, 0, 0.54);
-  -webkit-box-shadow: 4px 6px 22px -2px rgba(0, 0, 0, 0.54);
-  -moz-box-shadow: 4px 6px 22px -2px rgba(0, 0, 0, 0.54);
+  border: 1px solid black;
 }
 .proyectos .proyectos_texto {
   position: relative;
@@ -126,8 +124,11 @@ nav ul li :after {
 .cursos .large-12:nth-child(1) .large-6:nth-child(2) .curso_individual, .cursos .large-12:nth-child(3) .large-6:nth-child(2) .curso_individual {
   padding-left: 20px;
 }
+.cursos .large-12:nth-child(2) {
+  padding: 50px 0;
+}
 .cursos h3 {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .blog {
@@ -151,13 +152,15 @@ nav ul li :after {
   height: 1000px;
   width: 96%;
   margin: 0 0 0 auto;
-  left: 404px;
+  left: 399px;
   top: 150px;
 }
 
 .footer {
   background-image: url(../img/footer_fondo.png) !important;
   height: 800px;
+  background-size: cover;
+  background-position: center top;
 }
 .footer h2 {
   font-size: 2.4rem;
@@ -174,6 +177,151 @@ nav ul li :after {
 .footer .info_contacto {
   top: 450px;
   position: relative;
+}
+
+@media (max-width: 1700px) {
+  .blog .fondo_azul {
+    width: 80%;
+    left: 325px;
+  }
+}
+@media (max-width: 1600px) {
+  nav {
+    right: 40px;
+  }
+
+  .blog .fondo_azul {
+    width: 80%;
+    left: 325px;
+  }
+}
+@media (max-width: 1500px) {
+  nav {
+    background-color: #06283D;
+    right: 0px;
+    top: 38%;
+    width: 100%;
+    z-index: 999;
+    height: 45px;
+  }
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 10px;
+  }
+  nav ul li {
+    display: inline-flex;
+    width: 20% !important;
+  }
+  nav ul li a {
+    width: 100% !important;
+    text-align: center;
+  }
+  nav ul li :after {
+    content: "" !important;
+  }
+  nav a {
+    font-size: 0.9rem !important;
+    color: white !important;
+  }
+
+  .banner {
+    height: 300px;
+  }
+  .banner h1 {
+    padding-top: 90px;
+  }
+
+  .habilidades {
+    margin: 70px 0;
+  }
+
+  .cursos .large-12:nth-child(2) {
+    padding: 25px 0;
+  }
+}
+@media (max-width: 1400px) {
+  .blog .fondo_azul {
+    width: 60%;
+    left: 310px;
+  }
+}
+@media (max-width: 1100px) {
+  nav {
+    top: 23%;
+  }
+
+  .subtitulo {
+    font-size: 2rem;
+  }
+
+  .habilidades ul li {
+    padding: 5px;
+  }
+  .habilidades ul li img {
+    width: 50px;
+  }
+  .habilidades h2 {
+    margin-top: 5px;
+  }
+
+  .identidad p {
+    padding: 15px 80px 20px 0;
+  }
+  .identidad .fondo_azul {
+    height: 454px;
+    left: -280px;
+  }
+  .identidad .identidad_foto {
+    width: 250px;
+  }
+
+  .proyectos .subtitulo {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 900px) {
+  .cursos .large-12:nth-child(1) .large-6:nth-child(2) .curso_individual,
+.cursos .large-12:nth-child(3) .large-6:nth-child(2) .curso_individual {
+    text-align: left !important;
+    padding: 0px;
+  }
+}
+@media (max-width: 700px) {
+  .blog .fondo_azul {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .banner h1 {
+    font-size: 2.5rem;
+  }
+
+  .identidad .fondo_azul {
+    height: 450px;
+    left: 0px;
+  }
+
+  .proyectos {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .proyectos .proyectos_texto {
+    top: 0px;
+  }
+
+  .footer {
+    height: 600px;
+  }
+  .footer .info_contacto {
+    top: 350px;
+  }
+
+  .habilidades ul li img {
+    width: 60px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
