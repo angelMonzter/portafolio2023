@@ -1,3 +1,4 @@
+/*general*/
 p, span, a, div, li, body{
 	font-family: 'Mada', sans-serif!important;
 }
@@ -24,6 +25,9 @@ nav{
 		}
 	}
 }
+/*general*/
+
+/*angel*/
 .banner{
 	height: 450px;
 	background-color: #06283D;
@@ -60,6 +64,9 @@ nav{
 		padding: 15px 20px 20px 0;
 	}
 }
+/*angel*/
+
+/*proyectos*/
 .proyectos{
 	margin-top: 50px;
 	.subtitulo{
@@ -91,6 +98,9 @@ nav{
 		}
 	}
 }
+/*proyectos*/
+
+/*habilidades*/
 .habilidades{
 	margin: 100px 0;
 	ul{
@@ -108,6 +118,9 @@ nav{
 		margin-top: 25px;
 	}
 }
+/*habilidades*/
+
+/*cursos*/
 .cursos{
 	margin-bottom: 50px;
 	.large-12:nth-child(1), .large-12:nth-child(3){
@@ -125,6 +138,9 @@ nav{
 		font-size: 20px;
 	}
 }
+/*cursos*/
+
+/*blog - footer*/
 .blog{
 	position: relative;
 	padding-top: 50px;
@@ -173,6 +189,7 @@ nav{
 		position: relative;
 	}
 }
+/*blog - footer*/
 
 @media (max-width: 1700px) {
 	.blog {
@@ -291,7 +308,6 @@ nav{
 			padding: 0px;
 		}
 	}
-
 }
 @media (max-width: 700px) {
 	.blog .fondo_azul{
@@ -299,8 +315,11 @@ nav{
 	}
 }
 @media (max-width: 600px) {
-	.banner h1 {
-	  font-size: 2.5rem;
+	.banner {
+		height: 260px;
+		h1{
+		  font-size: 2.5rem;
+		}
 	}
 	.identidad{
 		.fondo_azul {
@@ -312,7 +331,8 @@ nav{
 	  margin-top: 25px;
 	  margin-bottom: 25px;
 	  .proyectos_texto {
-		  top: 0px;
+			top: 0px;
+	  		padding-bottom: 30px;
 		}
 	}
 	.footer {
@@ -323,5 +343,11 @@ nav{
 	}
 	.habilidades ul li img {
 	  width: 60px;
+	}
+	.blog{
+		h2{
+			position: relative;
+			top: -1360px;
+		}
 	}
 }

@@ -1,3 +1,4 @@
+/*general*/
 p, span, a, div, li, body {
   font-family: "Mada", sans-serif !important;
 }
@@ -25,6 +26,8 @@ nav ul li :after {
   padding-left: 10px;
 }
 
+/*general*/
+/*angel*/
 .banner {
   height: 450px;
   background-color: #06283D;
@@ -65,6 +68,8 @@ nav ul li :after {
   padding: 15px 20px 20px 0;
 }
 
+/*angel*/
+/*proyectos*/
 .proyectos {
   margin-top: 50px;
 }
@@ -97,6 +102,8 @@ nav ul li :after {
   width: 40px;
 }
 
+/*proyectos*/
+/*habilidades*/
 .habilidades {
   margin: 100px 0;
 }
@@ -115,6 +122,8 @@ nav ul li :after {
   margin-top: 25px;
 }
 
+/*habilidades*/
+/*cursos*/
 .cursos {
   margin-bottom: 50px;
 }
@@ -131,6 +140,8 @@ nav ul li :after {
   font-size: 20px;
 }
 
+/*cursos*/
+/*blog - footer*/
 .blog {
   position: relative;
   padding-top: 50px;
@@ -179,6 +190,7 @@ nav ul li :after {
   position: relative;
 }
 
+/*blog - footer*/
 @media (max-width: 1700px) {
   .blog .fondo_azul {
     width: 80%;
@@ -295,6 +307,9 @@ nav ul li :after {
   }
 }
 @media (max-width: 600px) {
+  .banner {
+    height: 260px;
+  }
   .banner h1 {
     font-size: 2.5rem;
   }
@@ -310,6 +325,7 @@ nav ul li :after {
   }
   .proyectos .proyectos_texto {
     top: 0px;
+    padding-bottom: 30px;
   }
 
   .footer {
@@ -321,6 +337,11 @@ nav ul li :after {
 
   .habilidades ul li img {
     width: 60px;
+  }
+
+  .blog h2 {
+    position: relative;
+    top: -1360px;
   }
 }
 
